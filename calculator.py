@@ -8,9 +8,9 @@ try:
     n1 = int(sys.argv[1])
     n2 = int(sys.argv[2])
 
-    print("Addition:", n1 + n2)
-    print("Subtraction:", n1 - n2)
-    print("Multiplication:", n1 * n2)
+    print("Add:", n1 + n2)
+    print("Sub:", n1 - n2)
+    print("Mul:", n1 * n2)
 
     if n2 != 0:
         print("Division:", n1 / n2)
