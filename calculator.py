@@ -18,4 +18,4 @@ try:
         print("Division: Cannot divide by zero.")
 
 except ValueError:
-    print("Please enter valid integers.")
+    print("Please enter valid integers:")
