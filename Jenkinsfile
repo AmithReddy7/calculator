@@ -3,7 +3,7 @@ agent any
 stages {
 stage('clone') {
 steps {
-git branch:'main', url: 'https://github.com/AmithReddy7/calculator.git’;
+git branch:'main', url: 'https://github.com/AmithReddy7/calculator.git';
 }
 }
 stage('compile') {
